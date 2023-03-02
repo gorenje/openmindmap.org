@@ -1,0 +1,114 @@
+.topsection {
+    item-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #131313;
+}
+.topsection h2 {
+    text-align: center;
+    width: 100%;
+}
+
+#root {
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 680px) {
+    body {
+        background-color: #131313;
+    }
+    a {
+        color: #2e66dc;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    #root {
+        padding-top: 40px;
+        width: 680px;
+    }
+    body {
+        background-color: #131313;
+    }
+    a {
+        color: #2e66dc;
+        text-decoration: none;
+    }
+    .topsection h2 {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: #444;
+    }
+    a {
+        color: #6c8ed5;
+        text-decoration: none;
+    }
+    .topsection {
+        background-color: #444;
+    }
+}
+
+.quattro {
+    font: 12pt/1.6 "Poppins", sans-serif;
+    color: #d8e7dc;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.footer-div {
+    font-size: 75%;
+    border-top: 1px solid white;
+    padding-top: 4px;
+}
+.footer-div span {
+    padding-top: 4px !important;
+    float: right;
+}
+
+.footer-div a {
+    color: #d8e7dc;
+}
+
+h2 {
+    /* border-bottom: 1px solid black; */
+    font: 14pt/1.2 "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+code {
+    background-color: #eee;
+    padding: 3px;
+    width: 100%;
+    display: inline-block;
+}
+
+blockquote {
+    font-style: italic;
+}
