@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #131313;
+    background-color: #d3d3d3;
 }
 .topsection h2 {
     text-align: center;
@@ -18,14 +18,17 @@
     padding-bottom: 40px;
 }
 
+body {
+    background-color: #d3d3d3;
+    color: #030303;
+}
+
+a {
+    color: #030303;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 680px) {
-    body {
-        background-color: #131313;
-    }
-    a {
-        color: #2e66dc;
-        text-decoration: none;
-    }
 }
 
 @media only screen and (min-width: 680px) {
@@ -33,34 +36,16 @@
         padding-top: 40px;
         width: 680px;
     }
-    body {
-        background-color: #131313;
-    }
-    a {
-        color: #2e66dc;
-        text-decoration: none;
-    }
     .topsection h2 {
         font-size: 150%;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    body {
-        background-color: #444;
-    }
-    a {
-        color: #6c8ed5;
-        text-decoration: none;
-    }
-    .topsection {
-        background-color: #444;
-    }
 }
 
 .quattro {
     font: 12pt/1.6 "Poppins", sans-serif;
-    color: #d8e7dc;
 }
 
 .regular {
@@ -81,7 +66,7 @@
 
 .footer-div {
     font-size: 75%;
-    border-top: 1px solid white;
+    border-top: 1px solid #030303;
     padding-top: 4px;
 }
 .footer-div span {
@@ -90,17 +75,18 @@
 }
 
 .footer-div a {
-    color: #d8e7dc;
+    color: #030303;
 }
 
 h2 {
-    /* border-bottom: 1px solid black; */
+    border-bottom: 1px solid black;
     font: 14pt/1.2 "Poppins", sans-serif;
     font-weight: 700;
 }
 
-
-
+h1 {
+    border-bottom: 1px solid #fefefe;
+}
 
 code {
     background-color: #eee;
