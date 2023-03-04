@@ -24,12 +24,73 @@ body {
 }
 
 a {
-    color: #030303;
+    color: rgb(0,0,200);
     text-decoration: none;
 }
 
-@media only screen and (max-width: 680px) {
+
+
+@media only screen and (min-width: 680px) {
+    #root {
+        margin: 0 auto;
+        width: 680px;
+    }
+    img {
+        width: 600px;
+    }
 }
+
+@media only screen and (max-width: 680px) {
+    #root {
+        margin: 0 auto;
+        width: 100%;
+    }
+    img {
+        width: 480px;
+    }
+    .quattro > h2:first-child {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #root {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    img {
+        width: 370px;
+    }
+    .quattro > h2:first-child {
+        font-size: 20px;
+        text-align: center;
+    }
+    .quattro {
+        font: 18px/1.5 'League Spartan', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #root {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    img {
+        width: 300px;
+    }
+    .quattro > h2:first-child {
+        font-size: 20px;
+        text-align: center;
+    }
+    .quattro {
+        font: 18px/1.5 'League Spartan', sans-serif;
+    }
+}
+
+
 
 @media only screen and (min-width: 680px) {
     #root {
@@ -74,9 +135,6 @@ a {
     float: right;
 }
 
-.footer-div a {
-    color: #030303;
-}
 
 h2 {
     border-bottom: 1px solid black;
